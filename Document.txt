@@ -1,0 +1,38 @@
+What is MicroServices ?
+
+MicroServices are small, independent, loosely coupled services that can work together
+Each service is a separate codebase, which can be managed by a small development team.
+Microservices communicate with each other by using well defined api's
+Microservices can be deployed independently and autonomously.
+Microservices can work with many different technology stacks which is technology agnostic.
+Microservices has its own database that is not shared with other services.
+
+What is Microservices Architecture?
+The microservice architectureal style is an approach to developing a single application as a suit of small 
+services, each running in its own process and communicating with lightweight mechanisms, often an HTTP or gRPC Api
+ Microservices are built around business capabilities and independently deployable by fully automated deployment process.
+ Microservices architecture decomposes an application into small independent services that communicate over well defined Apis. Services are owned by small, self-contained teams.
+ Microservices architecture is cloud native architecture approach in which services composed of many loosely coupled and independently deployable smaller components.
+ Microservices have their own technology stack, communicate to each other over a combination of REST APIs, are organized by business capability, with the bounded contexts.
+
+
+ What is Asp.Net ?
+ Asp.Net Core is a cross-platform, high-performance, open-source framework for building
+ mordern, cloud-enabled, Internet-Conneted apps.
+ Build web apps and services, Internet of Things apps, and mobile backends.
+ Deploy to the cloud or on-permises.
+ Run on .Net Core.
+
+ (
+	A unified story for building Web UI and Web APIs.
+	Architected for testability
+	Razor Pages makes coding page-focused scenarios easier and more productive.
+	Blazor lets you use C# in the browser alongside JavaScript.
+	Ability to Develop and run on all os.
+	Open-Source and community-focused.
+	Integration of mordern, client-side frameworks and development workflows.
+	A cloud-ready, environment-based configuration system.
+	Built-in dependency injection.
+	A light weight, high-performance, and modular HTTP request pipeline.
+ 
+ )
