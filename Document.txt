@@ -34,5 +34,29 @@ services, each running in its own process and communicating with lightweight mec
 	A cloud-ready, environment-based configuration system.
 	Built-in dependency injection.
 	A light weight, high-performance, and modular HTTP request pipeline.
- 
  )
+
+ Minimal APis in Aps.net Core : 
+ Simplified approach for building fast and efficient HTTP Apis in Aps.net.
+ Create fully functional REST endpoints with minimal coding and configuration, reducing the need for traditional
+ scaffolding and unnecessary controllers.
+ Skip tranditional scaffolding and avoid unnecessary controllers by fluently declaring API routes and actions
+ 
+ var app = WebApplication.Create(args);
+ app.MapGet("/",()=>"Hello World");
+ app.Run();
+
+ Get request to the root path .Ease of Setting up a basic Api endpoint with Minimal Apis.
+
+ Routing with Parameters :
+  Minimal Apis also support dynamic routing
+  var builder = WebApplication.CreateBuilder(args);
+  var app = builder.Build();
+  app.MapGet("/users/{userId}/books/{bookId}"),
+   (int userId, int bookId) +> $"The user id is {userId} and book id is {bookId}");
+   app.Run();
+
+   Route parameters for a userId and a bookId.
+   The APi responds with these Ids.
+
+
